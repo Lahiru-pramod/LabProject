@@ -9,3 +9,7 @@ C:\Users\Lahiru Pramod\AppData\Local\Temporary Projects\Labproject\obj\Debug\Lab
 C:\Users\Lahiru Pramod\AppData\Local\Temporary Projects\Labproject\obj\Debug\Labproject.xml
 C:\Users\Lahiru Pramod\AppData\Local\Temporary Projects\Labproject\obj\Debug\Labproject.pdb
 C:\Users\Lahiru Pramod\AppData\Local\Temporary Projects\Labproject\obj\Debug\Labproject.Form2.resources
+E:\GAL-IT-2019-F-0005\LabProject\Labproject\bin\Debug\Labproject.exe.config
+E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.exe
+E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.xml
+E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.pdb
