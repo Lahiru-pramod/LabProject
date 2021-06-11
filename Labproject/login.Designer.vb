@@ -161,7 +161,7 @@ Partial Class login
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.BackgroundImage = Global.Labproject.My.Resources.Resources.susan_q_yin_2JIvboGLeho_unsplash
+        Me.BackgroundImage = Global.Labproject.My.Resources.Resources.susan_q_yin_2JIvboGLeho_unsplash1
         Me.ClientSize = New System.Drawing.Size(639, 423)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label1)
