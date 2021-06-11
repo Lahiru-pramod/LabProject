@@ -32,6 +32,7 @@ Partial Class login
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -39,10 +40,10 @@ Partial Class login
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Black
-        Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Arial Unicode MS", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(56, 23)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(531, 43)
+        Me.Label1.Size = New System.Drawing.Size(525, 50)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Library Management System"
         '
@@ -72,7 +73,7 @@ Partial Class login
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.Green
         Me.Button1.FlatAppearance.BorderSize = 0
@@ -141,7 +142,7 @@ Partial Class login
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Location = New System.Drawing.Point(56, 94)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(530, 292)
+        Me.Panel1.Size = New System.Drawing.Size(525, 292)
         Me.Panel1.TabIndex = 5
         '
         'Label2
@@ -156,6 +157,17 @@ Partial Class login
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "if you do not have an account"
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(181, 398)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(295, 16)
+        Me.Label5.TabIndex = 6
+        Me.Label5.Text = "GAL-IT-2019-F-0005 : N . Lahiru Pramod De Silva"
+        '
         'login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -163,6 +175,7 @@ Partial Class login
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.BackgroundImage = Global.Labproject.My.Resources.Resources.susan_q_yin_2JIvboGLeho_unsplash1
         Me.ClientSize = New System.Drawing.Size(639, 423)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label1)
         Me.ForeColor = System.Drawing.Color.White
@@ -184,4 +197,5 @@ Partial Class login
     Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
 End Class

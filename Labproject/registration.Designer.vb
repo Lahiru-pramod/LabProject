@@ -25,25 +25,25 @@ Partial Class registration
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtlname = New System.Windows.Forms.TextBox()
+        Me.txtfname = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.txtage = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.txtadd = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.txtemail = New System.Windows.Forms.TextBox()
+        Me.txtpassword = New System.Windows.Forms.TextBox()
+        Me.txtpassword2 = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnsignin = New System.Windows.Forms.Button()
+        Me.btnback = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -82,19 +82,19 @@ Partial Class registration
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "Last name :"
         '
-        'TextBox1
+        'txtlname
         '
-        Me.TextBox1.Location = New System.Drawing.Point(402, 125)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(112, 20)
-        Me.TextBox1.TabIndex = 2
+        Me.txtlname.Location = New System.Drawing.Point(402, 125)
+        Me.txtlname.Name = "txtlname"
+        Me.txtlname.Size = New System.Drawing.Size(112, 20)
+        Me.txtlname.TabIndex = 2
         '
-        'TextBox2
+        'txtfname
         '
-        Me.TextBox2.Location = New System.Drawing.Point(150, 122)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(106, 20)
-        Me.TextBox2.TabIndex = 2
+        Me.txtfname.Location = New System.Drawing.Point(150, 122)
+        Me.txtfname.Name = "txtfname"
+        Me.txtfname.Size = New System.Drawing.Size(106, 20)
+        Me.txtfname.TabIndex = 2
         '
         'Label4
         '
@@ -120,12 +120,12 @@ Partial Class registration
         Me.Label5.TabIndex = 3
         Me.Label5.Text = "years old."
         '
-        'TextBox3
+        'txtage
         '
-        Me.TextBox3.Location = New System.Drawing.Point(193, 180)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(44, 20)
-        Me.TextBox3.TabIndex = 2
+        Me.txtage.Location = New System.Drawing.Point(193, 180)
+        Me.txtage.Name = "txtage"
+        Me.txtage.Size = New System.Drawing.Size(44, 20)
+        Me.txtage.TabIndex = 2
         '
         'Label6
         '
@@ -139,12 +139,12 @@ Partial Class registration
         Me.Label6.TabIndex = 3
         Me.Label6.Text = "Address     :"
         '
-        'TextBox4
+        'txtadd
         '
-        Me.TextBox4.Location = New System.Drawing.Point(150, 267)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(330, 20)
-        Me.TextBox4.TabIndex = 2
+        Me.txtadd.Location = New System.Drawing.Point(150, 267)
+        Me.txtadd.Name = "txtadd"
+        Me.txtadd.Size = New System.Drawing.Size(330, 20)
+        Me.txtadd.TabIndex = 2
         '
         'Label7
         '
@@ -220,26 +220,26 @@ Partial Class registration
         Me.Label10.TabIndex = 3
         Me.Label10.Text = "Re - password     :"
         '
-        'TextBox5
+        'txtemail
         '
-        Me.TextBox5.Location = New System.Drawing.Point(150, 313)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(177, 20)
-        Me.TextBox5.TabIndex = 2
+        Me.txtemail.Location = New System.Drawing.Point(150, 313)
+        Me.txtemail.Name = "txtemail"
+        Me.txtemail.Size = New System.Drawing.Size(177, 20)
+        Me.txtemail.TabIndex = 2
         '
-        'TextBox6
+        'txtpassword
         '
-        Me.TextBox6.Location = New System.Drawing.Point(150, 354)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(131, 20)
-        Me.TextBox6.TabIndex = 2
+        Me.txtpassword.Location = New System.Drawing.Point(150, 354)
+        Me.txtpassword.Name = "txtpassword"
+        Me.txtpassword.Size = New System.Drawing.Size(131, 20)
+        Me.txtpassword.TabIndex = 2
         '
-        'TextBox7
+        'txtpassword2
         '
-        Me.TextBox7.Location = New System.Drawing.Point(445, 354)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(127, 20)
-        Me.TextBox7.TabIndex = 2
+        Me.txtpassword2.Location = New System.Drawing.Point(445, 354)
+        Me.txtpassword2.Name = "txtpassword2"
+        Me.txtpassword2.Size = New System.Drawing.Size(127, 20)
+        Me.txtpassword2.TabIndex = 2
         '
         'Label11
         '
@@ -253,29 +253,29 @@ Partial Class registration
         Me.Label11.TabIndex = 3
         Me.Label11.Text = "l"
         '
-        'Button1
+        'btnsignin
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(150, 435)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(101, 38)
-        Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Sign up"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnsignin.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.btnsignin.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnsignin.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnsignin.Location = New System.Drawing.Point(150, 435)
+        Me.btnsignin.Name = "btnsignin"
+        Me.btnsignin.Size = New System.Drawing.Size(101, 38)
+        Me.btnsignin.TabIndex = 5
+        Me.btnsignin.Text = "Sign up"
+        Me.btnsignin.UseVisualStyleBackColor = False
         '
-        'Button2
+        'btnback
         '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(302, 435)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(99, 38)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Back"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.btnback.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.btnback.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnback.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnback.Location = New System.Drawing.Point(302, 435)
+        Me.btnback.Name = "btnback"
+        Me.btnback.Size = New System.Drawing.Size(154, 38)
+        Me.btnback.TabIndex = 5
+        Me.btnback.Text = "Back to the sign in"
+        Me.btnback.UseVisualStyleBackColor = False
         '
         'registration
         '
@@ -283,8 +283,8 @@ Partial Class registration
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Labproject.My.Resources.Resources.istockphoto_1150477705_612x612
         Me.ClientSize = New System.Drawing.Size(606, 485)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnback)
+        Me.Controls.Add(Me.btnsignin)
         Me.Controls.Add(Me.RadioButton2)
         Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.Label5)
@@ -295,13 +295,13 @@ Partial Class registration
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtage)
+        Me.Controls.Add(Me.txtadd)
+        Me.Controls.Add(Me.txtpassword2)
+        Me.Controls.Add(Me.txtpassword)
+        Me.Controls.Add(Me.txtemail)
+        Me.Controls.Add(Me.txtfname)
+        Me.Controls.Add(Me.txtlname)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -314,23 +314,23 @@ Partial Class registration
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents txtlname As System.Windows.Forms.TextBox
+    Friend WithEvents txtfname As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents txtage As System.Windows.Forms.TextBox
     Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
+    Friend WithEvents txtadd As System.Windows.Forms.TextBox
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents Label10 As System.Windows.Forms.Label
-    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
+    Friend WithEvents txtemail As System.Windows.Forms.TextBox
+    Friend WithEvents txtpassword As System.Windows.Forms.TextBox
+    Friend WithEvents txtpassword2 As System.Windows.Forms.TextBox
     Friend WithEvents Label11 As System.Windows.Forms.Label
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents btnsignin As System.Windows.Forms.Button
+    Friend WithEvents btnback As System.Windows.Forms.Button
 End Class
