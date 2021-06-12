@@ -25,11 +25,11 @@ Partial Class login
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.btnsignin = New System.Windows.Forms.Button()
+        Me.btnexit = New System.Windows.Forms.Button()
+        Me.btnreg = New System.Windows.Forms.Button()
+        Me.txtuser = New System.Windows.Forms.TextBox()
+        Me.txtpassword = New System.Windows.Forms.TextBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -71,73 +71,73 @@ Partial Class login
         Me.Label4.TabIndex = 2
         Me.Label4.Text = "Password"
         '
-        'Button1
+        'btnsignin
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.Green
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Location = New System.Drawing.Point(265, 142)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(92, 37)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Sign in"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnsignin.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.btnsignin.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnsignin.FlatAppearance.BorderColor = System.Drawing.Color.Green
+        Me.btnsignin.FlatAppearance.BorderSize = 0
+        Me.btnsignin.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnsignin.ForeColor = System.Drawing.Color.Black
+        Me.btnsignin.Location = New System.Drawing.Point(265, 142)
+        Me.btnsignin.Name = "btnsignin"
+        Me.btnsignin.Size = New System.Drawing.Size(92, 37)
+        Me.btnsignin.TabIndex = 3
+        Me.btnsignin.Text = "Sign in"
+        Me.btnsignin.UseVisualStyleBackColor = False
         '
-        'Button2
+        'btnexit
         '
-        Me.Button2.BackColor = System.Drawing.Color.Red
-        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.Black
-        Me.Button2.Location = New System.Drawing.Point(363, 142)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(60, 37)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Exit"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.btnexit.BackColor = System.Drawing.Color.Red
+        Me.btnexit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnexit.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnexit.ForeColor = System.Drawing.Color.Black
+        Me.btnexit.Location = New System.Drawing.Point(363, 142)
+        Me.btnexit.Name = "btnexit"
+        Me.btnexit.Size = New System.Drawing.Size(60, 37)
+        Me.btnexit.TabIndex = 3
+        Me.btnexit.Text = "Exit"
+        Me.btnexit.UseVisualStyleBackColor = False
         '
-        'Button3
+        'btnreg
         '
-        Me.Button3.BackColor = System.Drawing.Color.Gainsboro
-        Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.Color.Black
-        Me.Button3.Location = New System.Drawing.Point(164, 237)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(225, 29)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Create a new admin user account"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.btnreg.BackColor = System.Drawing.Color.Gainsboro
+        Me.btnreg.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnreg.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.btnreg.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnreg.ForeColor = System.Drawing.Color.Black
+        Me.btnreg.Location = New System.Drawing.Point(164, 237)
+        Me.btnreg.Name = "btnreg"
+        Me.btnreg.Size = New System.Drawing.Size(225, 29)
+        Me.btnreg.TabIndex = 3
+        Me.btnreg.Text = "Create a new admin user account"
+        Me.btnreg.UseVisualStyleBackColor = False
         '
-        'TextBox1
+        'txtuser
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Nirmala UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(265, 37)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(158, 27)
-        Me.TextBox1.TabIndex = 4
+        Me.txtuser.Font = New System.Drawing.Font("Nirmala UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtuser.Location = New System.Drawing.Point(265, 37)
+        Me.txtuser.Name = "txtuser"
+        Me.txtuser.Size = New System.Drawing.Size(158, 27)
+        Me.txtuser.TabIndex = 4
         '
-        'TextBox2
+        'txtpassword
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Nirmala UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(265, 88)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(158, 27)
-        Me.TextBox2.TabIndex = 4
+        Me.txtpassword.Font = New System.Drawing.Font("Nirmala UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtpassword.Location = New System.Drawing.Point(265, 88)
+        Me.txtpassword.Name = "txtpassword"
+        Me.txtpassword.Size = New System.Drawing.Size(158, 27)
+        Me.txtpassword.TabIndex = 4
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(251, Byte), Integer), CType(CType(251, Byte), Integer))
         Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.TextBox2)
-        Me.Panel1.Controls.Add(Me.TextBox1)
-        Me.Panel1.Controls.Add(Me.Button2)
-        Me.Panel1.Controls.Add(Me.Button3)
-        Me.Panel1.Controls.Add(Me.Button1)
+        Me.Panel1.Controls.Add(Me.txtpassword)
+        Me.Panel1.Controls.Add(Me.txtuser)
+        Me.Panel1.Controls.Add(Me.btnexit)
+        Me.Panel1.Controls.Add(Me.btnreg)
+        Me.Panel1.Controls.Add(Me.btnsignin)
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Location = New System.Drawing.Point(56, 94)
@@ -190,11 +190,11 @@ Partial Class login
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents btnsignin As System.Windows.Forms.Button
+    Friend WithEvents btnexit As System.Windows.Forms.Button
+    Friend WithEvents btnreg As System.Windows.Forms.Button
+    Friend WithEvents txtuser As System.Windows.Forms.TextBox
+    Friend WithEvents txtpassword As System.Windows.Forms.TextBox
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label

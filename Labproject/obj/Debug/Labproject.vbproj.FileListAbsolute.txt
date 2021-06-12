@@ -16,7 +16,6 @@ E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.pdb
 E:\GAL-IT-2019-F-0005\LabProject\Labproject\bin\Debug\Labproject.exe
 E:\GAL-IT-2019-F-0005\LabProject\Labproject\bin\Debug\Labproject.pdb
 E:\GAL-IT-2019-F-0005\LabProject\Labproject\bin\Debug\Labproject.xml
-E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.member_area.resources
 E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.Resources.resources
 E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.vbproj.GenerateResource.Cache
 E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.login.resources

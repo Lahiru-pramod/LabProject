@@ -33,17 +33,16 @@ Partial Class registration
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txtadd = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.txtemail = New System.Windows.Forms.TextBox()
         Me.txtpassword = New System.Windows.Forms.TextBox()
         Me.txtpassword2 = New System.Windows.Forms.TextBox()
-        Me.Label11 = New System.Windows.Forms.Label()
+        Me.lblcomment = New System.Windows.Forms.Label()
         Me.btnsignin = New System.Windows.Forms.Button()
         Me.btnback = New System.Windows.Forms.Button()
+        Me.cmbgender = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -158,32 +157,6 @@ Partial Class registration
         Me.Label7.TabIndex = 3
         Me.Label7.Text = "Gender      :"
         '
-        'RadioButton1
-        '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton1.ForeColor = System.Drawing.Color.White
-        Me.RadioButton1.Location = New System.Drawing.Point(150, 222)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(48, 17)
-        Me.RadioButton1.TabIndex = 4
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Male"
-        Me.RadioButton1.UseVisualStyleBackColor = False
-        '
-        'RadioButton2
-        '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton2.ForeColor = System.Drawing.Color.White
-        Me.RadioButton2.Location = New System.Drawing.Point(222, 221)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(59, 17)
-        Me.RadioButton2.TabIndex = 4
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Female"
-        Me.RadioButton2.UseVisualStyleBackColor = False
-        '
         'Label8
         '
         Me.Label8.AutoSize = True
@@ -231,6 +204,7 @@ Partial Class registration
         '
         Me.txtpassword.Location = New System.Drawing.Point(150, 354)
         Me.txtpassword.Name = "txtpassword"
+        Me.txtpassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtpassword.Size = New System.Drawing.Size(131, 20)
         Me.txtpassword.TabIndex = 2
         '
@@ -238,20 +212,20 @@ Partial Class registration
         '
         Me.txtpassword2.Location = New System.Drawing.Point(445, 354)
         Me.txtpassword2.Name = "txtpassword2"
+        Me.txtpassword2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtpassword2.Size = New System.Drawing.Size(127, 20)
         Me.txtpassword2.TabIndex = 2
         '
-        'Label11
+        'lblcomment
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.BackColor = System.Drawing.Color.Transparent
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.ForeColor = System.Drawing.Color.Red
-        Me.Label11.Location = New System.Drawing.Point(147, 390)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(11, 18)
-        Me.Label11.TabIndex = 3
-        Me.Label11.Text = "l"
+        Me.lblcomment.AutoSize = True
+        Me.lblcomment.BackColor = System.Drawing.Color.Transparent
+        Me.lblcomment.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblcomment.ForeColor = System.Drawing.Color.Red
+        Me.lblcomment.Location = New System.Drawing.Point(147, 390)
+        Me.lblcomment.Name = "lblcomment"
+        Me.lblcomment.Size = New System.Drawing.Size(0, 18)
+        Me.lblcomment.TabIndex = 3
         '
         'btnsignin
         '
@@ -277,20 +251,28 @@ Partial Class registration
         Me.btnback.Text = "Back to the sign in"
         Me.btnback.UseVisualStyleBackColor = False
         '
+        'cmbgender
+        '
+        Me.cmbgender.FormattingEnabled = True
+        Me.cmbgender.Items.AddRange(New Object() {"Male", "Female"})
+        Me.cmbgender.Location = New System.Drawing.Point(150, 222)
+        Me.cmbgender.Name = "cmbgender"
+        Me.cmbgender.Size = New System.Drawing.Size(87, 21)
+        Me.cmbgender.TabIndex = 6
+        '
         'registration
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Labproject.My.Resources.Resources.istockphoto_1150477705_612x612
         Me.ClientSize = New System.Drawing.Size(606, 485)
+        Me.Controls.Add(Me.cmbgender)
         Me.Controls.Add(Me.btnback)
         Me.Controls.Add(Me.btnsignin)
-        Me.Controls.Add(Me.RadioButton2)
-        Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.lblcomment)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label6)
@@ -322,15 +304,14 @@ Partial Class registration
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents txtadd As System.Windows.Forms.TextBox
     Friend WithEvents Label7 As System.Windows.Forms.Label
-    Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents txtemail As System.Windows.Forms.TextBox
     Friend WithEvents txtpassword As System.Windows.Forms.TextBox
     Friend WithEvents txtpassword2 As System.Windows.Forms.TextBox
-    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents lblcomment As System.Windows.Forms.Label
     Friend WithEvents btnsignin As System.Windows.Forms.Button
     Friend WithEvents btnback As System.Windows.Forms.Button
+    Friend WithEvents cmbgender As System.Windows.Forms.ComboBox
 End Class
