@@ -55,9 +55,9 @@ Partial Class login
         Me.Label3.ForeColor = System.Drawing.Color.Black
         Me.Label3.Location = New System.Drawing.Point(98, 37)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(49, 24)
+        Me.Label3.Size = New System.Drawing.Size(111, 24)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "User"
+        Me.Label3.Text = "User (email)"
         '
         'Label4
         '
@@ -92,9 +92,9 @@ Partial Class login
         Me.btnexit.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnexit.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnexit.ForeColor = System.Drawing.Color.Black
-        Me.btnexit.Location = New System.Drawing.Point(363, 142)
+        Me.btnexit.Location = New System.Drawing.Point(375, 142)
         Me.btnexit.Name = "btnexit"
-        Me.btnexit.Size = New System.Drawing.Size(60, 37)
+        Me.btnexit.Size = New System.Drawing.Size(78, 37)
         Me.btnexit.TabIndex = 3
         Me.btnexit.Text = "Exit"
         Me.btnexit.UseVisualStyleBackColor = False
@@ -118,7 +118,7 @@ Partial Class login
         Me.txtuser.Font = New System.Drawing.Font("Nirmala UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtuser.Location = New System.Drawing.Point(265, 37)
         Me.txtuser.Name = "txtuser"
-        Me.txtuser.Size = New System.Drawing.Size(158, 27)
+        Me.txtuser.Size = New System.Drawing.Size(188, 27)
         Me.txtuser.TabIndex = 4
         '
         'txtpassword
@@ -126,7 +126,8 @@ Partial Class login
         Me.txtpassword.Font = New System.Drawing.Font("Nirmala UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtpassword.Location = New System.Drawing.Point(265, 88)
         Me.txtpassword.Name = "txtpassword"
-        Me.txtpassword.Size = New System.Drawing.Size(158, 27)
+        Me.txtpassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.txtpassword.Size = New System.Drawing.Size(188, 27)
         Me.txtpassword.TabIndex = 4
         '
         'Panel1

@@ -4,6 +4,7 @@ Imports System.Data.SqlClient
 Public Class login
 
     Private Sub login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.CenterToScreen()
 
     End Sub
 
@@ -19,7 +20,8 @@ Public Class login
         Dim dt As DataTable = New DataTable()
         sda.Fill(dt)
         If (dt.Rows.Count > 0) Then
-            MessageBox.Show("Login Success", "information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Devision.Show()
+            Me.Hide()
         Else
             MessageBox.Show("Invalid User or Password", "information", MessageBoxButtons.OK, MessageBoxIcon.Information)
         End If
@@ -30,5 +32,15 @@ Public Class login
 
 
 
+    End Sub
+
+    Private Sub btnexit_Click(sender As Object, e As EventArgs) Handles btnexit.Click
+        Close()
+
+    End Sub
+
+    Private Sub btnreg_Click(sender As Object, e As EventArgs) Handles btnreg.Click
+        registration.Show()
+        Me.Hide()
     End Sub
 End Class

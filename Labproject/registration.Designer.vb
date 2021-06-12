@@ -187,11 +187,11 @@ Partial Class registration
         Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.White
-        Me.Label10.Location = New System.Drawing.Point(299, 353)
+        Me.Label10.Location = New System.Drawing.Point(287, 353)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(129, 18)
+        Me.Label10.Size = New System.Drawing.Size(164, 18)
         Me.Label10.TabIndex = 3
-        Me.Label10.Text = "Re - password     :"
+        Me.Label10.Text = "Re - Enter password    :"
         '
         'txtemail
         '
@@ -210,7 +210,7 @@ Partial Class registration
         '
         'txtpassword2
         '
-        Me.txtpassword2.Location = New System.Drawing.Point(445, 354)
+        Me.txtpassword2.Location = New System.Drawing.Point(457, 354)
         Me.txtpassword2.Name = "txtpassword2"
         Me.txtpassword2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtpassword2.Size = New System.Drawing.Size(127, 20)
@@ -244,7 +244,7 @@ Partial Class registration
         Me.btnback.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.btnback.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnback.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnback.Location = New System.Drawing.Point(302, 435)
+        Me.btnback.Location = New System.Drawing.Point(274, 435)
         Me.btnback.Name = "btnback"
         Me.btnback.Size = New System.Drawing.Size(154, 38)
         Me.btnback.TabIndex = 5

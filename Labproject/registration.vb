@@ -30,6 +30,19 @@ Public Class registration
     End Sub
 
     Private Sub registration_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.CenterToScreen()
+
+
+
+    End Sub
+
+    Private Sub btnback_Click(sender As Object, e As EventArgs) Handles btnback.Click
+        login.Show()
+        Me.Hide()
+
+
+
+
 
     End Sub
 End Class
