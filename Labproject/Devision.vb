@@ -13,4 +13,15 @@
         Close()
 
     End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        Calculator.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Add_new_book.Show()
+        Me.Hide()
+
+    End Sub
 End Class
