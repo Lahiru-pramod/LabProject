@@ -76,6 +76,12 @@
     <Compile Include="Add_new_book.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="BooksTakenOut.Designer.vb">
+      <DependentUpon>BooksTakenOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BooksTakenOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Calculator.Designer.vb">
       <DependentUpon>Calculator.vb</DependentUpon>
     </Compile>
@@ -115,10 +121,19 @@
     <Compile Include="registration.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Update_Book_Details.Designer.vb">
+      <DependentUpon>Update_Book_Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Book_Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Add_new_book.resx">
       <DependentUpon>Add_new_book.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BooksTakenOut.resx">
+      <DependentUpon>BooksTakenOut.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Calculator.resx">
       <DependentUpon>Calculator.vb</DependentUpon>
@@ -137,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="registration.resx">
       <DependentUpon>registration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Book_Details.resx">
+      <DependentUpon>Update_Book_Details.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -162,9 +180,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cesar-couto-TIvFLeqZ4ec-unsplash.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\devision-1046544350-612x612.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
