@@ -24,4 +24,8 @@ E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.Devision.resour
 E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.Calculator.resources
 E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.Add_new_book.resources
 E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.BooksTakenOut.resources
-E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.Update_Book_Details.resources
+E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.Add_new_member.resources
+E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.Books_returned.resources
+E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.Edit_member_details.resources
+E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.View_admin_panel.resources
+E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.Edit_admin_data.resources

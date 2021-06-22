@@ -76,10 +76,22 @@
     <Compile Include="Add_new_book.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Add_new_member.Designer.vb">
+      <DependentUpon>Add_new_member.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add_new_member.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="BooksTakenOut.Designer.vb">
       <DependentUpon>BooksTakenOut.vb</DependentUpon>
     </Compile>
     <Compile Include="BooksTakenOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Books_returned.Designer.vb">
+      <DependentUpon>Books_returned.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Books_returned.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Calculator.Designer.vb">
@@ -92,6 +104,18 @@
       <DependentUpon>Devision.vb</DependentUpon>
     </Compile>
     <Compile Include="Devision.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_admin_data.Designer.vb">
+      <DependentUpon>Edit_admin_data.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_admin_data.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_member_details.Designer.vb">
+      <DependentUpon>Edit_member_details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_member_details.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="login.Designer.vb">
@@ -121,10 +145,10 @@
     <Compile Include="registration.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Update_Book_Details.Designer.vb">
-      <DependentUpon>Update_Book_Details.vb</DependentUpon>
+    <Compile Include="View_admin_panel.Designer.vb">
+      <DependentUpon>View_admin_panel.vb</DependentUpon>
     </Compile>
-    <Compile Include="Update_Book_Details.vb">
+    <Compile Include="View_admin_panel.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -132,14 +156,26 @@
     <EmbeddedResource Include="Add_new_book.resx">
       <DependentUpon>Add_new_book.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Add_new_member.resx">
+      <DependentUpon>Add_new_member.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BooksTakenOut.resx">
       <DependentUpon>BooksTakenOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Books_returned.resx">
+      <DependentUpon>Books_returned.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Calculator.resx">
       <DependentUpon>Calculator.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Devision.resx">
       <DependentUpon>Devision.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_admin_data.resx">
+      <DependentUpon>Edit_admin_data.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_member_details.resx">
+      <DependentUpon>Edit_member_details.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.vb</DependentUpon>
@@ -153,8 +189,8 @@
     <EmbeddedResource Include="registration.resx">
       <DependentUpon>registration.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Update_Book_Details.resx">
-      <DependentUpon>Update_Book_Details.vb</DependentUpon>
+    <EmbeddedResource Include="View_admin_panel.resx">
+      <DependentUpon>View_admin_panel.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

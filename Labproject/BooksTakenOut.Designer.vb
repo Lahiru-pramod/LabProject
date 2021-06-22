@@ -37,17 +37,19 @@ Partial Class BooksTakenOut
         Me.btnok = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Txtsearch = New System.Windows.Forms.TextBox()
-        Me.btnsearch = New System.Windows.Forms.Button()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.btnupdate = New System.Windows.Forms.Button()
-        Me.btndelete = New System.Windows.Forms.Button()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.btnbar = New System.Windows.Forms.Button()
+        Me.btnsearch = New System.Windows.Forms.Button()
+        Me.Txtsearch = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.btndelete = New System.Windows.Forms.Button()
+        Me.btnupdate = New System.Windows.Forms.Button()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnall = New System.Windows.Forms.Button()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -56,11 +58,11 @@ Partial Class BooksTakenOut
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(221, 29)
+        Me.Label1.Location = New System.Drawing.Point(174, 27)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(255, 33)
+        Me.Label1.Size = New System.Drawing.Size(361, 33)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Books Taken Out"
+        Me.Label1.Text = "Books Taken Out Details"
         '
         'Label2
         '
@@ -169,7 +171,7 @@ Partial Class BooksTakenOut
         '
         Me.btnok.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.btnok.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnok.Location = New System.Drawing.Point(202, 338)
+        Me.btnok.Location = New System.Drawing.Point(158, 334)
         Me.btnok.Name = "btnok"
         Me.btnok.Size = New System.Drawing.Size(75, 27)
         Me.btnok.TabIndex = 5
@@ -181,7 +183,7 @@ Partial Class BooksTakenOut
         Me.Button2.BackColor = System.Drawing.Color.Tomato
         Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(297, 338)
+        Me.Button2.Location = New System.Drawing.Point(433, 334)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 27)
         Me.Button2.TabIndex = 5
@@ -192,106 +194,16 @@ Partial Class BooksTakenOut
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel1.Controls.Add(Me.btnbar)
-        Me.Panel1.Controls.Add(Me.btndelete)
-        Me.Panel1.Controls.Add(Me.btnupdate)
         Me.Panel1.Controls.Add(Me.btnsearch)
         Me.Panel1.Controls.Add(Me.Txtsearch)
         Me.Panel1.Controls.Add(Me.Label11)
         Me.Panel1.Controls.Add(Me.Label10)
         Me.Panel1.Controls.Add(Me.Label9)
         Me.Panel1.Controls.Add(Me.Label8)
-        Me.Panel1.Location = New System.Drawing.Point(433, 105)
+        Me.Panel1.Location = New System.Drawing.Point(433, 80)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(243, 205)
+        Me.Panel1.Size = New System.Drawing.Size(243, 180)
         Me.Panel1.TabIndex = 6
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(32, 11)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(184, 30)
-        Me.Label8.TabIndex = 0
-        Me.Label8.Text = "Books Taken Out Details Record" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "    (Update and Delete Section)"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(13, 64)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(89, 16)
-        Me.Label9.TabIndex = 0
-        Me.Label9.Text = "Member NIC :"
-        '
-        'Txtsearch
-        '
-        Me.Txtsearch.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txtsearch.Location = New System.Drawing.Point(101, 60)
-        Me.Txtsearch.Name = "Txtsearch"
-        Me.Txtsearch.Size = New System.Drawing.Size(130, 21)
-        Me.Txtsearch.TabIndex = 1
-        '
-        'btnsearch
-        '
-        Me.btnsearch.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.btnsearch.Location = New System.Drawing.Point(63, 89)
-        Me.btnsearch.Name = "btnsearch"
-        Me.btnsearch.Size = New System.Drawing.Size(60, 23)
-        Me.btnsearch.TabIndex = 2
-        Me.btnsearch.Text = "Search"
-        Me.btnsearch.UseVisualStyleBackColor = False
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(13, 140)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(162, 16)
-        Me.Label10.TabIndex = 0
-        Me.Label10.Text = "For Update Record Click :"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(12, 169)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(163, 16)
-        Me.Label11.TabIndex = 0
-        Me.Label11.Text = "For Delete Record Click   :"
-        '
-        'btnupdate
-        '
-        Me.btnupdate.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btnupdate.Location = New System.Drawing.Point(171, 135)
-        Me.btnupdate.Name = "btnupdate"
-        Me.btnupdate.Size = New System.Drawing.Size(60, 23)
-        Me.btnupdate.TabIndex = 2
-        Me.btnupdate.Text = "Update"
-        Me.btnupdate.UseVisualStyleBackColor = False
-        '
-        'btndelete
-        '
-        Me.btndelete.BackColor = System.Drawing.Color.Red
-        Me.btndelete.Location = New System.Drawing.Point(171, 166)
-        Me.btndelete.Name = "btndelete"
-        Me.btndelete.Size = New System.Drawing.Size(60, 23)
-        Me.btndelete.TabIndex = 2
-        Me.btndelete.Text = "Delete"
-        Me.btndelete.UseVisualStyleBackColor = False
-        '
-        'DataGridView1
-        '
-        Me.DataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(50, 379)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(614, 180)
-        Me.DataGridView1.TabIndex = 7
         '
         'btnbar
         '
@@ -303,24 +215,138 @@ Partial Class BooksTakenOut
         Me.btnbar.Text = "Clear serach Bar"
         Me.btnbar.UseVisualStyleBackColor = False
         '
+        'btnsearch
+        '
+        Me.btnsearch.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnsearch.Location = New System.Drawing.Point(63, 89)
+        Me.btnsearch.Name = "btnsearch"
+        Me.btnsearch.Size = New System.Drawing.Size(60, 23)
+        Me.btnsearch.TabIndex = 2
+        Me.btnsearch.Text = "Search"
+        Me.btnsearch.UseVisualStyleBackColor = False
+        '
+        'Txtsearch
+        '
+        Me.Txtsearch.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Txtsearch.Location = New System.Drawing.Point(101, 60)
+        Me.Txtsearch.Name = "Txtsearch"
+        Me.Txtsearch.Size = New System.Drawing.Size(130, 21)
+        Me.Txtsearch.TabIndex = 1
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(12, 153)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(217, 13)
+        Me.Label11.TabIndex = 0
+        Me.Label11.Text = "For Delete Record Click   : 'DELETE' button."
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(12, 130)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(217, 13)
+        Me.Label10.TabIndex = 0
+        Me.Label10.Text = "For Update Record Click : 'UPDATE' button."
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(13, 64)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(89, 16)
+        Me.Label9.TabIndex = 0
+        Me.Label9.Text = "Member NIC :"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(33, 6)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(184, 30)
+        Me.Label8.TabIndex = 0
+        Me.Label8.Text = "Books Taken Out Details Record" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "    (Update and Delete Section)"
+        '
+        'btndelete
+        '
+        Me.btndelete.BackColor = System.Drawing.Color.Red
+        Me.btndelete.Location = New System.Drawing.Point(341, 334)
+        Me.btndelete.Name = "btndelete"
+        Me.btndelete.Size = New System.Drawing.Size(72, 27)
+        Me.btndelete.TabIndex = 2
+        Me.btndelete.Text = "DELETE"
+        Me.btndelete.UseVisualStyleBackColor = False
+        '
+        'btnupdate
+        '
+        Me.btnupdate.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnupdate.Location = New System.Drawing.Point(248, 334)
+        Me.btnupdate.Name = "btnupdate"
+        Me.btnupdate.Size = New System.Drawing.Size(78, 27)
+        Me.btnupdate.TabIndex = 2
+        Me.btnupdate.Text = "UPDATE"
+        Me.btnupdate.UseVisualStyleBackColor = False
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Location = New System.Drawing.Point(50, 379)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.DataGridView1.Size = New System.Drawing.Size(614, 180)
+        Me.DataGridView1.TabIndex = 7
+        '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Silver
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(389, 340)
+        Me.Button1.Location = New System.Drawing.Point(521, 334)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(87, 25)
         Me.Button1.TabIndex = 8
         Me.Button1.Text = " Back"
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'btnall
+        '
+        Me.btnall.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.btnall.Location = New System.Drawing.Point(433, 281)
+        Me.btnall.Name = "btnall"
+        Me.btnall.Size = New System.Drawing.Size(243, 26)
+        Me.btnall.TabIndex = 9
+        Me.btnall.Text = "Display All Records"
+        Me.btnall.UseVisualStyleBackColor = False
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(228, 572)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(253, 13)
+        Me.Label12.TabIndex = 10
+        Me.Label12.Text = "( GAL-IT-2019-F-0005 : N . Lahiru Pramod De Silva )"
+        '
         'BooksTakenOut
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(712, 588)
+        Me.AutoSize = True
+        Me.ClientSize = New System.Drawing.Size(712, 594)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.btnall)
         Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btndelete)
         Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.btnupdate)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.btnok)
@@ -372,4 +398,6 @@ Partial Class BooksTakenOut
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
     Friend WithEvents btnbar As System.Windows.Forms.Button
     Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents btnall As System.Windows.Forms.Button
+    Friend WithEvents Label12 As System.Windows.Forms.Label
 End Class

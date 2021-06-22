@@ -39,15 +39,25 @@ Public Class BooksTakenOut
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnok.Click
-        cmd = con.CreateCommand()
-        cmd.CommandType = CommandType.Text
-        cmd.CommandText = "INSERT INTO [dbo].[Books_taken_out]([Book_name],[Name_of_member],[MemberNIC],[DOI],[DOR]) VALUES('" + txtname.Text + "','" + txtmember.Text + "','" + txtnic.Text + "','" + DateTimePicker1.Text + "','" + DateTimePicker2.Text + "')"
-        cmd.ExecuteNonQuery()
+        If txtname.Text = "" Or txtmember.Text = "" Or txtnic.Text = "" Or DateTimePicker1.Text = "" Or DateTimePicker2.Text = "" Then
+            MessageBox.Show("Please! Fill-up all field", "information", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
-        disp_data()
+        Else
+                cmd = con.CreateCommand()
+                cmd.CommandType = CommandType.Text
+                cmd.CommandText = "INSERT INTO [dbo].[Books_taken_out]([Book_name],[Name_of_member],[MemberNIC],[DOI],[DOR]) VALUES('" + txtname.Text + "','" + txtmember.Text + "','" + txtnic.Text + "','" + DateTimePicker1.Text + "','" + DateTimePicker2.Text + "')"
+                cmd.ExecuteNonQuery()
 
-        MessageBox.Show("You have successfully Added Record", "information", MessageBoxButtons.OK, MessageBoxIcon.Information)
-
+                disp_data()
+                txtname.Text = ""
+                txtmember.Text = ""
+                txtnic.Text = ""
+                DateTimePicker1.Text = ""
+                DateTimePicker2.Text = ""
+                MessageBox.Show("You have successfully Added Record", "information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                con.Close()
+           
+        End If
     End Sub
 
     Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
@@ -93,25 +103,38 @@ Public Class BooksTakenOut
     End Sub
 
     Private Sub btnsearch_Click(sender As Object, e As EventArgs) Handles btnsearch.Click
-        cmd = con.CreateCommand()
-        cmd.CommandType = CommandType.Text
-        cmd.CommandText = "select * from [dbo].[Books_taken_out] where MemberNIC ='" + Txtsearch.Text + "'"
-        cmd.ExecuteNonQuery()
+        If Txtsearch.Text = "" Then
+            MessageBox.Show("Please enter MemberNIC, what do you want to find", "information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        Else
 
-        Dim dt As New DataTable()
-        Dim da As New SqlDataAdapter(cmd)
-        da.Fill(dt)
-        Dim dr As SqlClient.SqlDataReader
-        dr = cmd.ExecuteReader(CommandBehavior.CloseConnection)
-        While dr.Read
-            txtname.Text = dr.GetString(0).ToString()
-            txtmember.Text = dr.GetString(1).ToString()
-            txtnic.Text = dr.GetString(2).ToString()
-            DateTimePicker1.Text = dr.GetDateTime(3).Date()
-            DateTimePicker2.Text = dr.GetDateTime(4).Date()
+            cmd = con.CreateCommand()
+            cmd.CommandType = CommandType.Text
+            cmd.CommandText = "select * from [dbo].[Books_taken_out] where MemberNIC ='" + Txtsearch.Text + "'"
+            cmd.ExecuteNonQuery()
 
+            Dim dt As New DataTable()
+            Dim da As New SqlDataAdapter(cmd)
+            da.Fill(dt)
 
-        End While
+            If (dt.Rows.Count > 0) Then
+
+                Dim dr As SqlClient.SqlDataReader
+                dr = cmd.ExecuteReader(CommandBehavior.CloseConnection)
+                While dr.Read
+                    txtname.Text = dr.GetString(0).ToString()
+                    txtmember.Text = dr.GetString(1).ToString()
+                    txtnic.Text = dr.GetString(2).ToString()
+                    DateTimePicker1.Text = dr.GetDateTime(3).Date()
+                    DateTimePicker2.Text = dr.GetDateTime(4).Date()
+                End While
+                con.Close()
+            Else
+                con.Open()
+                MessageBox.Show("No results found", "information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                con.Close()
+
+            End If
+        End If
     End Sub
 
     Private Sub btndelete_Click(sender As Object, e As EventArgs) Handles btndelete.Click
@@ -134,5 +157,49 @@ Public Class BooksTakenOut
     Private Sub Button1_Click_2(sender As Object, e As EventArgs) Handles Button1.Click
         Devision.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+
+    End Sub
+
+    Private Sub btnall_Click(sender As Object, e As EventArgs) Handles btnall.Click
+
+    End Sub
+
+    Private Sub DateTimePicker2_ValueChanged(sender As Object, e As EventArgs) Handles DateTimePicker2.ValueChanged
+
+    End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
+
+    End Sub
+
+    Private Sub DateTimePicker1_ValueChanged(sender As Object, e As EventArgs) Handles DateTimePicker1.ValueChanged
+
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+
+    End Sub
+
+    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
+
+    End Sub
+
+    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
+
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+
     End Sub
 End Class
