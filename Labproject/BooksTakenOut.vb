@@ -43,19 +43,23 @@ Public Class BooksTakenOut
             MessageBox.Show("Please! Fill-up all field", "information", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
         Else
-                cmd = con.CreateCommand()
-                cmd.CommandType = CommandType.Text
-                cmd.CommandText = "INSERT INTO [dbo].[Books_taken_out]([Book_name],[Name_of_member],[MemberNIC],[DOI],[DOR]) VALUES('" + txtname.Text + "','" + txtmember.Text + "','" + txtnic.Text + "','" + DateTimePicker1.Text + "','" + DateTimePicker2.Text + "')"
-                cmd.ExecuteNonQuery()
-
-                disp_data()
-                txtname.Text = ""
-                txtmember.Text = ""
-                txtnic.Text = ""
-                DateTimePicker1.Text = ""
-                DateTimePicker2.Text = ""
-                MessageBox.Show("You have successfully Added Record", "information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            If con.State = ConnectionState.Open Then
                 con.Close()
+            End If
+            con.Open()
+            cmd = con.CreateCommand()
+            cmd.CommandType = CommandType.Text
+            cmd.CommandText = "INSERT INTO [dbo].[Books_taken_out]([Book_name],[Name_of_member],[MemberNIC],[DOI],[DOR]) VALUES('" + txtname.Text + "','" + txtmember.Text + "','" + txtnic.Text + "','" + DateTimePicker1.Text + "','" + DateTimePicker2.Text + "')"
+            cmd.ExecuteNonQuery()
+
+            disp_data()
+            txtname.Text = ""
+            txtmember.Text = ""
+            txtnic.Text = ""
+            DateTimePicker1.Text = ""
+            DateTimePicker2.Text = ""
+            MessageBox.Show("You have successfully Added Record", "information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            con.Close()
            
         End If
     End Sub
@@ -106,7 +110,10 @@ Public Class BooksTakenOut
         If Txtsearch.Text = "" Then
             MessageBox.Show("Please enter MemberNIC, what do you want to find", "information", MessageBoxButtons.OK, MessageBoxIcon.Information)
         Else
-
+            If con.State = ConnectionState.Open Then
+                con.Close()
+            End If
+            con.Open()
             cmd = con.CreateCommand()
             cmd.CommandType = CommandType.Text
             cmd.CommandText = "select * from [dbo].[Books_taken_out] where MemberNIC ='" + Txtsearch.Text + "'"
@@ -129,9 +136,7 @@ Public Class BooksTakenOut
                 End While
                 con.Close()
             Else
-                con.Open()
                 MessageBox.Show("No results found", "information", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                con.Close()
 
             End If
         End If
