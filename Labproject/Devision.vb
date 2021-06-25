@@ -33,4 +33,14 @@
         BooksTakenOut.Show()
         Me.Hide()
     End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Books_returned.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Add_new_member.Show()
+        Me.Hide()
+    End Sub
 End Class

@@ -304,7 +304,7 @@ Partial Class Devision
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.OldLace
-        Me.ClientSize = New System.Drawing.Size(619, 411)
+        Me.ClientSize = New System.Drawing.Size(615, 420)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.Panel5)

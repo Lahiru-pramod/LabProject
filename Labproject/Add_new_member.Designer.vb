@@ -37,7 +37,7 @@ Partial Class Add_new_member
         Me.btnclear = New System.Windows.Forms.Button()
         Me.btnback = New System.Windows.Forms.Button()
         Me.cmbgender = New System.Windows.Forms.ComboBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Cmbposition = New System.Windows.Forms.ComboBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
@@ -151,6 +151,7 @@ Partial Class Add_new_member
         'btnadd
         '
         Me.btnadd.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.btnadd.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnadd.Location = New System.Drawing.Point(176, 385)
         Me.btnadd.Name = "btnadd"
         Me.btnadd.Size = New System.Drawing.Size(84, 29)
@@ -161,6 +162,7 @@ Partial Class Add_new_member
         'btnclear
         '
         Me.btnclear.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.btnclear.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnclear.Location = New System.Drawing.Point(276, 385)
         Me.btnclear.Name = "btnclear"
         Me.btnclear.Size = New System.Drawing.Size(82, 29)
@@ -171,6 +173,7 @@ Partial Class Add_new_member
         'btnback
         '
         Me.btnback.BackColor = System.Drawing.Color.Red
+        Me.btnback.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnback.Location = New System.Drawing.Point(375, 385)
         Me.btnback.Name = "btnback"
         Me.btnback.Size = New System.Drawing.Size(83, 29)
@@ -187,14 +190,14 @@ Partial Class Add_new_member
         Me.cmbgender.Size = New System.Drawing.Size(196, 29)
         Me.cmbgender.TabIndex = 5
         '
-        'ComboBox1
+        'Cmbposition
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Scool Student", "Campus Student", "Govenment officer", "Other"})
-        Me.ComboBox1.Location = New System.Drawing.Point(238, 285)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(196, 29)
-        Me.ComboBox1.TabIndex = 5
+        Me.Cmbposition.FormattingEnabled = True
+        Me.Cmbposition.Items.AddRange(New Object() {"School Student", "Campus Student", "Govenment officer", "Other"})
+        Me.Cmbposition.Location = New System.Drawing.Point(238, 285)
+        Me.Cmbposition.Name = "Cmbposition"
+        Me.Cmbposition.Size = New System.Drawing.Size(196, 29)
+        Me.Cmbposition.TabIndex = 5
         '
         'Label8
         '
@@ -214,7 +217,7 @@ Partial Class Add_new_member
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(498, 464)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.Cmbposition)
         Me.Controls.Add(Me.cmbgender)
         Me.Controls.Add(Me.btnback)
         Me.Controls.Add(Me.btnclear)
@@ -253,6 +256,6 @@ Partial Class Add_new_member
     Friend WithEvents btnclear As System.Windows.Forms.Button
     Friend WithEvents btnback As System.Windows.Forms.Button
     Friend WithEvents cmbgender As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents Cmbposition As System.Windows.Forms.ComboBox
     Friend WithEvents Label8 As System.Windows.Forms.Label
 End Class
