@@ -28,7 +28,6 @@ Partial Class Edit_member_details
         Me.btndelete = New System.Windows.Forms.Button()
         Me.btnupdate = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.btnok = New System.Windows.Forms.Button()
         Me.btnall = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btnbar = New System.Windows.Forms.Button()
@@ -39,8 +38,8 @@ Partial Class Edit_member_details
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.txtfines = New System.Windows.Forms.TextBox()
-        Me.txtmember = New System.Windows.Forms.TextBox()
+        Me.txtadd = New System.Windows.Forms.TextBox()
+        Me.txtnic = New System.Windows.Forms.TextBox()
         Me.txtname = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -49,8 +48,8 @@ Partial Class Edit_member_details
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.cmbgender = New System.Windows.Forms.ComboBox()
+        Me.cmbposition = New System.Windows.Forms.ComboBox()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -70,17 +69,17 @@ Partial Class Edit_member_details
         '
         Me.DataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(58, 406)
+        Me.DataGridView1.Location = New System.Drawing.Point(12, 406)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(580, 208)
+        Me.DataGridView1.Size = New System.Drawing.Size(649, 208)
         Me.DataGridView1.TabIndex = 47
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Silver
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(482, 359)
+        Me.Button1.Location = New System.Drawing.Point(445, 359)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(87, 25)
         Me.Button1.TabIndex = 46
@@ -90,7 +89,7 @@ Partial Class Edit_member_details
         'btndelete
         '
         Me.btndelete.BackColor = System.Drawing.Color.Red
-        Me.btndelete.Location = New System.Drawing.Point(307, 357)
+        Me.btndelete.Location = New System.Drawing.Point(254, 357)
         Me.btndelete.Name = "btndelete"
         Me.btndelete.Size = New System.Drawing.Size(72, 27)
         Me.btndelete.TabIndex = 42
@@ -100,7 +99,7 @@ Partial Class Edit_member_details
         'btnupdate
         '
         Me.btnupdate.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btnupdate.Location = New System.Drawing.Point(209, 359)
+        Me.btnupdate.Location = New System.Drawing.Point(148, 357)
         Me.btnupdate.Name = "btnupdate"
         Me.btnupdate.Size = New System.Drawing.Size(78, 27)
         Me.btnupdate.TabIndex = 43
@@ -112,23 +111,12 @@ Partial Class Edit_member_details
         Me.Button2.BackColor = System.Drawing.Color.Tomato
         Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(394, 359)
+        Me.Button2.Location = New System.Drawing.Point(348, 359)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 27)
         Me.Button2.TabIndex = 44
         Me.Button2.Text = "Clear"
         Me.Button2.UseVisualStyleBackColor = False
-        '
-        'btnok
-        '
-        Me.btnok.BackColor = System.Drawing.Color.MediumSeaGreen
-        Me.btnok.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnok.Location = New System.Drawing.Point(119, 359)
-        Me.btnok.Name = "btnok"
-        Me.btnok.Size = New System.Drawing.Size(75, 27)
-        Me.btnok.TabIndex = 45
-        Me.btnok.Text = "INSERT"
-        Me.btnok.UseVisualStyleBackColor = False
         '
         'btnall
         '
@@ -233,21 +221,21 @@ Partial Class Edit_member_details
         Me.DateTimePicker1.Size = New System.Drawing.Size(170, 26)
         Me.DateTimePicker1.TabIndex = 38
         '
-        'txtfines
+        'txtadd
         '
-        Me.txtfines.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtfines.Location = New System.Drawing.Point(209, 309)
-        Me.txtfines.Name = "txtfines"
-        Me.txtfines.Size = New System.Drawing.Size(170, 26)
-        Me.txtfines.TabIndex = 34
+        Me.txtadd.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtadd.Location = New System.Drawing.Point(209, 309)
+        Me.txtadd.Name = "txtadd"
+        Me.txtadd.Size = New System.Drawing.Size(170, 26)
+        Me.txtadd.TabIndex = 34
         '
-        'txtmember
+        'txtnic
         '
-        Me.txtmember.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtmember.Location = New System.Drawing.Point(209, 135)
-        Me.txtmember.Name = "txtmember"
-        Me.txtmember.Size = New System.Drawing.Size(170, 26)
-        Me.txtmember.TabIndex = 35
+        Me.txtnic.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtnic.Location = New System.Drawing.Point(209, 135)
+        Me.txtnic.Name = "txtnic"
+        Me.txtnic.Size = New System.Drawing.Size(170, 26)
+        Me.txtnic.TabIndex = 35
         '
         'txtname
         '
@@ -327,45 +315,44 @@ Partial Class Edit_member_details
         Me.Label1.TabIndex = 26
         Me.Label1.Text = "Edit Member Details"
         '
-        'ComboBox1
+        'cmbgender
         '
-        Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Male", "Female"})
-        Me.ComboBox1.Location = New System.Drawing.Point(209, 179)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(170, 28)
-        Me.ComboBox1.TabIndex = 49
+        Me.cmbgender.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbgender.FormattingEnabled = True
+        Me.cmbgender.Items.AddRange(New Object() {"Male", "Female"})
+        Me.cmbgender.Location = New System.Drawing.Point(209, 179)
+        Me.cmbgender.Name = "cmbgender"
+        Me.cmbgender.Size = New System.Drawing.Size(170, 28)
+        Me.cmbgender.TabIndex = 49
         '
-        'ComboBox2
+        'cmbposition
         '
-        Me.ComboBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"Scool Student", "Campus Student", "Govenment officer", "Other"})
-        Me.ComboBox2.Location = New System.Drawing.Point(209, 270)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(170, 28)
-        Me.ComboBox2.TabIndex = 49
+        Me.cmbposition.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbposition.FormattingEnabled = True
+        Me.cmbposition.Items.AddRange(New Object() {"Scool Student", "Campus Student", "Govenment officer", "Other"})
+        Me.cmbposition.Location = New System.Drawing.Point(209, 270)
+        Me.cmbposition.Name = "cmbposition"
+        Me.cmbposition.Size = New System.Drawing.Size(170, 28)
+        Me.cmbposition.TabIndex = 49
         '
         'Edit_member_details
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(673, 651)
-        Me.Controls.Add(Me.ComboBox2)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.cmbposition)
+        Me.Controls.Add(Me.cmbgender)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btndelete)
         Me.Controls.Add(Me.btnupdate)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.btnok)
         Me.Controls.Add(Me.btnall)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.DateTimePicker1)
-        Me.Controls.Add(Me.txtfines)
-        Me.Controls.Add(Me.txtmember)
+        Me.Controls.Add(Me.txtadd)
+        Me.Controls.Add(Me.txtnic)
         Me.Controls.Add(Me.txtname)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label5)
@@ -389,7 +376,6 @@ Partial Class Edit_member_details
     Friend WithEvents btndelete As System.Windows.Forms.Button
     Friend WithEvents btnupdate As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents btnok As System.Windows.Forms.Button
     Friend WithEvents btnall As System.Windows.Forms.Button
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents btnbar As System.Windows.Forms.Button
@@ -400,8 +386,8 @@ Partial Class Edit_member_details
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
-    Friend WithEvents txtfines As System.Windows.Forms.TextBox
-    Friend WithEvents txtmember As System.Windows.Forms.TextBox
+    Friend WithEvents txtadd As System.Windows.Forms.TextBox
+    Friend WithEvents txtnic As System.Windows.Forms.TextBox
     Friend WithEvents txtname As System.Windows.Forms.TextBox
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
@@ -410,6 +396,6 @@ Partial Class Edit_member_details
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
+    Friend WithEvents cmbgender As System.Windows.Forms.ComboBox
+    Friend WithEvents cmbposition As System.Windows.Forms.ComboBox
 End Class

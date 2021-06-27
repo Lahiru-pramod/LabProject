@@ -29,3 +29,4 @@ E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.Books_returned.
 E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.Edit_member_details.resources
 E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.View_admin_panel.resources
 E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.Edit_admin_data.resources
+E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.Main_control_Screen.resources

@@ -22,6 +22,8 @@ Public Class login
         If (dt.Rows.Count > 0) Then
             Devision.Show()
             Me.Hide()
+            txtuser.Text = ""
+            txtpassword.Text = ""
         Else
             MessageBox.Show("Invalid User or Password", "information", MessageBoxButtons.OK, MessageBoxIcon.Information)
         End If

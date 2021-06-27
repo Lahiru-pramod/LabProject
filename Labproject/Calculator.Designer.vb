@@ -142,7 +142,7 @@ Partial Class Calculator
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkCyan
-        Me.ClientSize = New System.Drawing.Size(466, 362)
+        Me.ClientSize = New System.Drawing.Size(507, 470)
         Me.Controls.Add(Me.btnback)
         Me.Controls.Add(Me.btnclear)
         Me.Controls.Add(Me.btncal)

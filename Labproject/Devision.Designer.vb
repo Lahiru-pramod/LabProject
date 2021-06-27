@@ -40,7 +40,7 @@ Partial Class Devision
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Btnexit = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Panel2.SuspendLayout()
@@ -256,24 +256,24 @@ Partial Class Devision
         'Panel5
         '
         Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Panel5.Controls.Add(Me.Button2)
+        Me.Panel5.Controls.Add(Me.Btnexit)
         Me.Panel5.Controls.Add(Me.Button1)
         Me.Panel5.Location = New System.Drawing.Point(317, 301)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(258, 71)
         Me.Panel5.TabIndex = 1
         '
-        'Button2
+        'Btnexit
         '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(151, 26)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(88, 30)
-        Me.Button2.TabIndex = 0
-        Me.Button2.Text = "Exit"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.Btnexit.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Btnexit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Btnexit.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btnexit.Location = New System.Drawing.Point(151, 26)
+        Me.Btnexit.Name = "Btnexit"
+        Me.Btnexit.Size = New System.Drawing.Size(88, 30)
+        Me.Btnexit.TabIndex = 0
+        Me.Btnexit.Text = "Exit"
+        Me.Btnexit.UseVisualStyleBackColor = False
         '
         'Button1
         '
@@ -336,7 +336,7 @@ Partial Class Devision
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Btnexit As System.Windows.Forms.Button
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Button5 As System.Windows.Forms.Button
