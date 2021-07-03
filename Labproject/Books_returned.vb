@@ -13,7 +13,6 @@ Public Class Books_returned
     End Sub
 
     Private Sub Books_returned_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.CenterToScreen()
         con.ConnectionString = "Data Source=DESKTOP-FN1F9VH;Initial Catalog=Librarydb;Integrated Security=True"
         If con.State = ConnectionState.Open Then
             con.Close()
@@ -140,6 +139,10 @@ Public Class Books_returned
         DateTimePicker1.Text = ""
         DateTimePicker2.Text = ""
         txtfines.Text = ""
+
+    End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
 
     End Sub
 End Class

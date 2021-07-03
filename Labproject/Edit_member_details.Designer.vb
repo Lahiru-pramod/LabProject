@@ -24,7 +24,6 @@ Partial Class Edit_member_details
     Private Sub InitializeComponent()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.btndelete = New System.Windows.Forms.Button()
         Me.btnupdate = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -59,7 +58,7 @@ Partial Class Edit_member_details
         Me.Label13.AutoSize = True
         Me.Label13.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(206, 628)
+        Me.Label13.Location = New System.Drawing.Point(326, 633)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(253, 13)
         Me.Label13.TabIndex = 48
@@ -69,27 +68,16 @@ Partial Class Edit_member_details
         '
         Me.DataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 406)
+        Me.DataGridView1.Location = New System.Drawing.Point(92, 405)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.DataGridView1.Size = New System.Drawing.Size(649, 208)
         Me.DataGridView1.TabIndex = 47
         '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.Silver
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(445, 359)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(87, 25)
-        Me.Button1.TabIndex = 46
-        Me.Button1.Text = " Back"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
         'btndelete
         '
         Me.btndelete.BackColor = System.Drawing.Color.Red
-        Me.btndelete.Location = New System.Drawing.Point(254, 357)
+        Me.btndelete.Location = New System.Drawing.Point(350, 357)
         Me.btndelete.Name = "btndelete"
         Me.btndelete.Size = New System.Drawing.Size(72, 27)
         Me.btndelete.TabIndex = 42
@@ -99,7 +87,7 @@ Partial Class Edit_member_details
         'btnupdate
         '
         Me.btnupdate.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btnupdate.Location = New System.Drawing.Point(148, 357)
+        Me.btnupdate.Location = New System.Drawing.Point(244, 357)
         Me.btnupdate.Name = "btnupdate"
         Me.btnupdate.Size = New System.Drawing.Size(78, 27)
         Me.btnupdate.TabIndex = 43
@@ -111,7 +99,7 @@ Partial Class Edit_member_details
         Me.Button2.BackColor = System.Drawing.Color.Tomato
         Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(348, 359)
+        Me.Button2.Location = New System.Drawing.Point(444, 359)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 27)
         Me.Button2.TabIndex = 44
@@ -121,7 +109,7 @@ Partial Class Edit_member_details
         'btnall
         '
         Me.btnall.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.btnall.Location = New System.Drawing.Point(409, 296)
+        Me.btnall.Location = New System.Drawing.Point(528, 292)
         Me.btnall.Name = "btnall"
         Me.btnall.Size = New System.Drawing.Size(243, 26)
         Me.btnall.TabIndex = 41
@@ -138,7 +126,7 @@ Partial Class Edit_member_details
         Me.Panel1.Controls.Add(Me.Label10)
         Me.Panel1.Controls.Add(Me.Label9)
         Me.Panel1.Controls.Add(Me.Label8)
-        Me.Panel1.Location = New System.Drawing.Point(409, 98)
+        Me.Panel1.Location = New System.Drawing.Point(528, 94)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(243, 180)
         Me.Panel1.TabIndex = 40
@@ -216,7 +204,7 @@ Partial Class Edit_member_details
         Me.DateTimePicker1.CustomFormat = "yyyy-MM-dd"
         Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePicker1.Location = New System.Drawing.Point(209, 221)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(276, 219)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(170, 26)
         Me.DateTimePicker1.TabIndex = 38
@@ -224,7 +212,7 @@ Partial Class Edit_member_details
         'txtadd
         '
         Me.txtadd.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtadd.Location = New System.Drawing.Point(209, 309)
+        Me.txtadd.Location = New System.Drawing.Point(276, 307)
         Me.txtadd.Name = "txtadd"
         Me.txtadd.Size = New System.Drawing.Size(170, 26)
         Me.txtadd.TabIndex = 34
@@ -232,7 +220,7 @@ Partial Class Edit_member_details
         'txtnic
         '
         Me.txtnic.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtnic.Location = New System.Drawing.Point(209, 135)
+        Me.txtnic.Location = New System.Drawing.Point(276, 133)
         Me.txtnic.Name = "txtnic"
         Me.txtnic.Size = New System.Drawing.Size(170, 26)
         Me.txtnic.TabIndex = 35
@@ -240,7 +228,7 @@ Partial Class Edit_member_details
         'txtname
         '
         Me.txtname.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtname.Location = New System.Drawing.Point(209, 91)
+        Me.txtname.Location = New System.Drawing.Point(276, 89)
         Me.txtname.Name = "txtname"
         Me.txtname.Size = New System.Drawing.Size(170, 26)
         Me.txtname.TabIndex = 36
@@ -249,7 +237,7 @@ Partial Class Edit_member_details
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(38, 312)
+        Me.Label12.Location = New System.Drawing.Point(105, 310)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(68, 20)
         Me.Label12.TabIndex = 28
@@ -259,7 +247,7 @@ Partial Class Edit_member_details
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(38, 273)
+        Me.Label5.Location = New System.Drawing.Point(105, 271)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(65, 20)
         Me.Label5.TabIndex = 27
@@ -269,7 +257,7 @@ Partial Class Edit_member_details
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(38, 226)
+        Me.Label4.Location = New System.Drawing.Point(105, 224)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(78, 20)
         Me.Label4.TabIndex = 29
@@ -279,7 +267,7 @@ Partial Class Edit_member_details
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(38, 180)
+        Me.Label7.Location = New System.Drawing.Point(105, 178)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(63, 20)
         Me.Label7.TabIndex = 30
@@ -289,7 +277,7 @@ Partial Class Edit_member_details
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(38, 138)
+        Me.Label3.Location = New System.Drawing.Point(105, 136)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(98, 20)
         Me.Label3.TabIndex = 31
@@ -299,7 +287,7 @@ Partial Class Edit_member_details
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(38, 94)
+        Me.Label2.Location = New System.Drawing.Point(105, 92)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(131, 20)
         Me.Label2.TabIndex = 32
@@ -309,7 +297,7 @@ Partial Class Edit_member_details
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(203, 27)
+        Me.Label1.Location = New System.Drawing.Point(323, 34)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(297, 33)
         Me.Label1.TabIndex = 26
@@ -320,7 +308,7 @@ Partial Class Edit_member_details
         Me.cmbgender.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbgender.FormattingEnabled = True
         Me.cmbgender.Items.AddRange(New Object() {"Male", "Female"})
-        Me.cmbgender.Location = New System.Drawing.Point(209, 179)
+        Me.cmbgender.Location = New System.Drawing.Point(276, 177)
         Me.cmbgender.Name = "cmbgender"
         Me.cmbgender.Size = New System.Drawing.Size(170, 28)
         Me.cmbgender.TabIndex = 49
@@ -330,7 +318,7 @@ Partial Class Edit_member_details
         Me.cmbposition.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbposition.FormattingEnabled = True
         Me.cmbposition.Items.AddRange(New Object() {"Scool Student", "Campus Student", "Govenment officer", "Other"})
-        Me.cmbposition.Location = New System.Drawing.Point(209, 270)
+        Me.cmbposition.Location = New System.Drawing.Point(276, 268)
         Me.cmbposition.Name = "cmbposition"
         Me.cmbposition.Size = New System.Drawing.Size(170, 28)
         Me.cmbposition.TabIndex = 49
@@ -339,12 +327,12 @@ Partial Class Edit_member_details
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(673, 651)
+        Me.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.ClientSize = New System.Drawing.Size(865, 655)
         Me.Controls.Add(Me.cmbposition)
         Me.Controls.Add(Me.cmbgender)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btndelete)
         Me.Controls.Add(Me.btnupdate)
         Me.Controls.Add(Me.Button2)
@@ -361,6 +349,7 @@ Partial Class Edit_member_details
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Edit_member_details"
         Me.Text = "Edit_member_details"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -372,7 +361,6 @@ Partial Class Edit_member_details
     End Sub
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
-    Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents btndelete As System.Windows.Forms.Button
     Friend WithEvents btnupdate As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button

@@ -15,11 +15,51 @@ Labproject
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:Labproject.My.Resources.Resources.book_64px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Labproject.My.Resources.Resources.calculator_80px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Labproject.My.Resources.Resources.cesar_couto_TIvFLeqZ4ec_unsplash">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Labproject.My.Resources.Resources.find_and_replace_80px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Labproject.My.Resources.Resources.find_user_male_64px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Labproject.My.Resources.Resources.istockphoto_1150477705_612x612">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Labproject.My.Resources.Resources.key_24px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Labproject.My.Resources.Resources.literature_40px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Labproject.My.Resources.Resources.literature_50px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Labproject.My.Resources.Resources.male_user_64pxiiiiii">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Labproject.My.Resources.Resources.member_32px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Labproject.My.Resources.Resources.shutdown_64px">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -28,6 +68,22 @@ Labproject
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:Labproject.My.Resources.Resources.susan_q_yin_2JIvboGLeho_unsplash1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Labproject.My.Resources.Resources.undo_26px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Labproject.My.Resources.Resources.user_48pikikikikix">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Labproject.My.Resources.Resources.user_64pnmjnjx">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Labproject.My.Resources.Resources.user_80px">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

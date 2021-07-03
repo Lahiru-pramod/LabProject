@@ -206,9 +206,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="registration.resx">
       <DependentUpon>registration.vb</DependentUpon>
@@ -236,12 +236,6 @@
     <None Include="Resources\istockphoto-1150477705-612x612.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\susan-q-yin-2JIvboGLeho-unsplash.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cesar-couto-TIvFLeqZ4ec-unsplash.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
@@ -257,6 +251,39 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\literature_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\literature_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\member_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find_user_male_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male_user_64pxiiiiii.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_48pikikikikix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find_and_replace_80px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

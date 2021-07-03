@@ -58,17 +58,17 @@ Partial Class BooksTakenOut
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(174, 27)
+        Me.Label1.Location = New System.Drawing.Point(266, 27)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(361, 33)
+        Me.Label1.Size = New System.Drawing.Size(308, 33)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Books Taken Out Details"
+        Me.Label1.Text = "Issued Books Details"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(31, 108)
+        Me.Label2.Location = New System.Drawing.Point(65, 95)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(108, 20)
         Me.Label2.TabIndex = 1
@@ -78,7 +78,7 @@ Partial Class BooksTakenOut
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(31, 152)
+        Me.Label3.Location = New System.Drawing.Point(65, 139)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(131, 20)
         Me.Label3.TabIndex = 1
@@ -88,7 +88,7 @@ Partial Class BooksTakenOut
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(31, 240)
+        Me.Label4.Location = New System.Drawing.Point(65, 227)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(103, 20)
         Me.Label4.TabIndex = 1
@@ -98,7 +98,7 @@ Partial Class BooksTakenOut
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(31, 287)
+        Me.Label5.Location = New System.Drawing.Point(65, 274)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(94, 20)
         Me.Label5.TabIndex = 1
@@ -108,7 +108,7 @@ Partial Class BooksTakenOut
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(31, 194)
+        Me.Label7.Location = New System.Drawing.Point(65, 181)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(98, 20)
         Me.Label7.TabIndex = 1
@@ -117,7 +117,7 @@ Partial Class BooksTakenOut
         'txtname
         '
         Me.txtname.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtname.Location = New System.Drawing.Point(202, 105)
+        Me.txtname.Location = New System.Drawing.Point(284, 92)
         Me.txtname.Name = "txtname"
         Me.txtname.Size = New System.Drawing.Size(170, 26)
         Me.txtname.TabIndex = 2
@@ -125,7 +125,7 @@ Partial Class BooksTakenOut
         'txtmember
         '
         Me.txtmember.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtmember.Location = New System.Drawing.Point(202, 149)
+        Me.txtmember.Location = New System.Drawing.Point(284, 136)
         Me.txtmember.Name = "txtmember"
         Me.txtmember.Size = New System.Drawing.Size(170, 26)
         Me.txtmember.TabIndex = 2
@@ -133,7 +133,7 @@ Partial Class BooksTakenOut
         'txtnic
         '
         Me.txtnic.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtnic.Location = New System.Drawing.Point(202, 191)
+        Me.txtnic.Location = New System.Drawing.Point(284, 178)
         Me.txtnic.Name = "txtnic"
         Me.txtnic.Size = New System.Drawing.Size(170, 26)
         Me.txtnic.TabIndex = 2
@@ -143,7 +143,7 @@ Partial Class BooksTakenOut
         Me.DateTimePicker1.CustomFormat = "yyyy-MM-dd"
         Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePicker1.Location = New System.Drawing.Point(202, 235)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(284, 222)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(170, 26)
         Me.DateTimePicker1.TabIndex = 3
@@ -153,7 +153,7 @@ Partial Class BooksTakenOut
         Me.DateTimePicker2.CustomFormat = "yyyy-MM-dd"
         Me.DateTimePicker2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePicker2.Location = New System.Drawing.Point(202, 282)
+        Me.DateTimePicker2.Location = New System.Drawing.Point(284, 269)
         Me.DateTimePicker2.Name = "DateTimePicker2"
         Me.DateTimePicker2.Size = New System.Drawing.Size(170, 26)
         Me.DateTimePicker2.TabIndex = 3
@@ -161,7 +161,7 @@ Partial Class BooksTakenOut
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(32, 172)
+        Me.Label6.Location = New System.Drawing.Point(66, 159)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(158, 13)
         Me.Label6.TabIndex = 4
@@ -200,9 +200,9 @@ Partial Class BooksTakenOut
         Me.Panel1.Controls.Add(Me.Label10)
         Me.Panel1.Controls.Add(Me.Label9)
         Me.Panel1.Controls.Add(Me.Label8)
-        Me.Panel1.Location = New System.Drawing.Point(433, 80)
+        Me.Panel1.Location = New System.Drawing.Point(558, 92)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(243, 180)
+        Me.Panel1.Size = New System.Drawing.Size(259, 183)
         Me.Panel1.TabIndex = 6
         '
         'btnbar
@@ -297,10 +297,10 @@ Partial Class BooksTakenOut
         '
         Me.DataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(50, 379)
+        Me.DataGridView1.Location = New System.Drawing.Point(172, 381)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(614, 180)
+        Me.DataGridView1.Size = New System.Drawing.Size(532, 187)
         Me.DataGridView1.TabIndex = 7
         '
         'Button1
@@ -317,7 +317,7 @@ Partial Class BooksTakenOut
         'btnall
         '
         Me.btnall.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.btnall.Location = New System.Drawing.Point(433, 281)
+        Me.btnall.Location = New System.Drawing.Point(568, 284)
         Me.btnall.Name = "btnall"
         Me.btnall.Size = New System.Drawing.Size(243, 26)
         Me.btnall.TabIndex = 9
@@ -329,7 +329,7 @@ Partial Class BooksTakenOut
         Me.Label12.AutoSize = True
         Me.Label12.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(228, 572)
+        Me.Label12.Location = New System.Drawing.Point(338, 583)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(253, 13)
         Me.Label12.TabIndex = 10
@@ -340,7 +340,8 @@ Partial Class BooksTakenOut
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
-        Me.ClientSize = New System.Drawing.Size(712, 594)
+        Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.ClientSize = New System.Drawing.Size(865, 655)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.btnall)
         Me.Controls.Add(Me.Button1)
@@ -363,6 +364,7 @@ Partial Class BooksTakenOut
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "BooksTakenOut"
         Me.Text = "BooksTakenOut"
         Me.Panel1.ResumeLayout(False)
