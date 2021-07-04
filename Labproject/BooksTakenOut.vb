@@ -98,6 +98,7 @@ Public Class BooksTakenOut
         cmd = con.CreateCommand()
         cmd.CommandType = CommandType.Text
         cmd.CommandText = "update [dbo].[Books_taken_out] set Book_name ='" + txtname.Text + "' , Name_of_member= '" + txtmember.Text + "', MemberNIC = '" + txtnic.Text + "',DOI='" + DateTimePicker1.Text + "',DOR='" + DateTimePicker2.Text + "' where MemberNIC = '" + Txtsearch.Text + "' "
+        MessageBox.Show("Are you sure update this Data?", "information", MessageBoxButtons.OK, MessageBoxIcon.Information)
         cmd.ExecuteNonQuery()
         disp_data()
 
@@ -150,6 +151,7 @@ Public Class BooksTakenOut
         cmd = con.CreateCommand()
         cmd.CommandType = CommandType.Text
         cmd.CommandText = "delete from [dbo].[Books_taken_out] where MemberNIC = '" + Txtsearch.Text + "' "
+        MessageBox.Show("Are you sure DELETE this Data?", "information", MessageBoxButtons.OK, MessageBoxIcon.Information)
         cmd.ExecuteNonQuery()
         disp_data()
     End Sub
@@ -158,7 +160,7 @@ Public Class BooksTakenOut
         Txtsearch.Text = ""
     End Sub
 
-    Private Sub Button1_Click_2(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click_2(sender As Object, e As EventArgs)
         Devision.Show()
         Me.Hide()
     End Sub

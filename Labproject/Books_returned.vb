@@ -6,7 +6,7 @@ Public Class Books_returned
     Dim con As New SqlConnection
     Dim cmd As New SqlCommand
     Dim i As Integer
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Btnback.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
         Devision.Show()
         Me.Hide()
 

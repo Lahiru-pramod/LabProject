@@ -43,7 +43,6 @@ Partial Class Books_returned
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.btnall = New System.Windows.Forms.Button()
-        Me.Btnback = New System.Windows.Forms.Button()
         Me.btndelete = New System.Windows.Forms.Button()
         Me.btnupdate = New System.Windows.Forms.Button()
         Me.btnclear = New System.Windows.Forms.Button()
@@ -264,23 +263,11 @@ Partial Class Books_returned
         Me.btnall.Text = "Display All Records"
         Me.btnall.UseVisualStyleBackColor = False
         '
-        'Btnback
-        '
-        Me.Btnback.BackColor = System.Drawing.Color.Silver
-        Me.Btnback.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Btnback.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Btnback.Location = New System.Drawing.Point(521, 351)
-        Me.Btnback.Name = "Btnback"
-        Me.Btnback.Size = New System.Drawing.Size(87, 25)
-        Me.Btnback.TabIndex = 23
-        Me.Btnback.Text = " Back"
-        Me.Btnback.UseVisualStyleBackColor = False
-        '
         'btndelete
         '
         Me.btndelete.BackColor = System.Drawing.Color.Red
         Me.btndelete.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btndelete.Location = New System.Drawing.Point(346, 349)
+        Me.btndelete.Location = New System.Drawing.Point(396, 350)
         Me.btndelete.Name = "btndelete"
         Me.btndelete.Size = New System.Drawing.Size(72, 27)
         Me.btndelete.TabIndex = 19
@@ -291,7 +278,7 @@ Partial Class Books_returned
         '
         Me.btnupdate.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btnupdate.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnupdate.Location = New System.Drawing.Point(248, 351)
+        Me.btnupdate.Location = New System.Drawing.Point(298, 352)
         Me.btnupdate.Name = "btnupdate"
         Me.btnupdate.Size = New System.Drawing.Size(78, 27)
         Me.btnupdate.TabIndex = 20
@@ -303,7 +290,7 @@ Partial Class Books_returned
         Me.btnclear.BackColor = System.Drawing.Color.Tomato
         Me.btnclear.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnclear.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnclear.Location = New System.Drawing.Point(433, 351)
+        Me.btnclear.Location = New System.Drawing.Point(483, 352)
         Me.btnclear.Name = "btnclear"
         Me.btnclear.Size = New System.Drawing.Size(75, 27)
         Me.btnclear.TabIndex = 21
@@ -314,7 +301,7 @@ Partial Class Books_returned
         '
         Me.btnok.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.btnok.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnok.Location = New System.Drawing.Point(158, 351)
+        Me.btnok.Location = New System.Drawing.Point(208, 352)
         Me.btnok.Name = "btnok"
         Me.btnok.Size = New System.Drawing.Size(75, 27)
         Me.btnok.TabIndex = 22
@@ -368,7 +355,6 @@ Partial Class Books_returned
         Me.ClientSize = New System.Drawing.Size(865, 655)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.Btnback)
         Me.Controls.Add(Me.btndelete)
         Me.Controls.Add(Me.btnupdate)
         Me.Controls.Add(Me.btnclear)
@@ -421,7 +407,6 @@ Partial Class Books_returned
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents btnall As System.Windows.Forms.Button
-    Friend WithEvents Btnback As System.Windows.Forms.Button
     Friend WithEvents btndelete As System.Windows.Forms.Button
     Friend WithEvents btnupdate As System.Windows.Forms.Button
     Friend WithEvents btnclear As System.Windows.Forms.Button

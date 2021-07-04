@@ -127,9 +127,6 @@
   <data name="find_user_male_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\find_user_male_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="key_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\key_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="undo_26px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\undo_26px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -148,6 +145,12 @@
   <data name="literature_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\literature_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="susan-q-yin-2JIvboGLeho-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>images\susan-q-yin-2JIvboGLeho-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="find_and_replace_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\find_and_replace_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="istockphoto-1150477705-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\istockphoto-1150477705-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -157,19 +160,19 @@
   <data name="shutdown_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shutdown_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="literature_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\literature_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="key_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="member_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\member_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="susan-q-yin-2JIvboGLeho-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\susan-q-yin-2JIvboGLeho-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="literature_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\literature_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="find_and_replace_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\find_and_replace_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

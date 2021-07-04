@@ -20,7 +20,7 @@ Public Class login
         Dim dt As DataTable = New DataTable()
         sda.Fill(dt)
         If (dt.Rows.Count > 0) Then
-            Devision.Show()
+            Main_control_Screen.Show()
             Me.Hide()
             txtuser.Text = ""
             txtpassword.Text = ""
@@ -60,6 +60,30 @@ Public Class login
 
 
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
+
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub txtpassword_TextChanged(sender As Object, e As EventArgs) Handles txtpassword.TextChanged
+
+    End Sub
+
+    Private Sub txtuser_TextChanged(sender As Object, e As EventArgs) Handles txtuser.TextChanged
+
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+
+    End Sub
+
+    Private Sub Label1_Click_1(sender As Object, e As EventArgs) Handles Label1.Click
 
     End Sub
 End Class

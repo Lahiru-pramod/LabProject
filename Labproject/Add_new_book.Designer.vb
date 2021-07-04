@@ -34,7 +34,6 @@ Partial Class Add_new_book
         Me.DateTimePicker = New System.Windows.Forms.DateTimePicker()
         Me.txtcopies = New System.Windows.Forms.TextBox()
         Me.btnadd = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -178,19 +177,6 @@ Partial Class Add_new_book
         Me.btnadd.Text = "Add "
         Me.btnadd.UseVisualStyleBackColor = False
         '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button2.Location = New System.Drawing.Point(507, 200)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(96, 32)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Back"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
@@ -333,7 +319,6 @@ Partial Class Add_new_book
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.btnadd)
         Me.Controls.Add(Me.DateTimePicker)
         Me.Controls.Add(Me.cmbcat)
@@ -371,7 +356,6 @@ Partial Class Add_new_book
     Friend WithEvents DateTimePicker As System.Windows.Forms.DateTimePicker
     Friend WithEvents txtcopies As System.Windows.Forms.TextBox
     Friend WithEvents btnadd As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox

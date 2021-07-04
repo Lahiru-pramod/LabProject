@@ -30,7 +30,7 @@
 
     End Sub
 
-    Private Sub btnback_Click(sender As Object, e As EventArgs) Handles btnback.Click
+    Private Sub btnback_Click(sender As Object, e As EventArgs)
         Devision.Show()
         Me.Hide()
     End Sub

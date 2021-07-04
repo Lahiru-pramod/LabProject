@@ -47,7 +47,6 @@ Partial Class BooksTakenOut
         Me.btndelete = New System.Windows.Forms.Button()
         Me.btnupdate = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.btnall = New System.Windows.Forms.Button()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
@@ -171,7 +170,7 @@ Partial Class BooksTakenOut
         '
         Me.btnok.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.btnok.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnok.Location = New System.Drawing.Point(158, 334)
+        Me.btnok.Location = New System.Drawing.Point(252, 335)
         Me.btnok.Name = "btnok"
         Me.btnok.Size = New System.Drawing.Size(75, 27)
         Me.btnok.TabIndex = 5
@@ -183,7 +182,7 @@ Partial Class BooksTakenOut
         Me.Button2.BackColor = System.Drawing.Color.Tomato
         Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(433, 334)
+        Me.Button2.Location = New System.Drawing.Point(527, 335)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 27)
         Me.Button2.TabIndex = 5
@@ -276,7 +275,7 @@ Partial Class BooksTakenOut
         'btndelete
         '
         Me.btndelete.BackColor = System.Drawing.Color.Red
-        Me.btndelete.Location = New System.Drawing.Point(341, 334)
+        Me.btndelete.Location = New System.Drawing.Point(435, 335)
         Me.btndelete.Name = "btndelete"
         Me.btndelete.Size = New System.Drawing.Size(72, 27)
         Me.btndelete.TabIndex = 2
@@ -286,7 +285,7 @@ Partial Class BooksTakenOut
         'btnupdate
         '
         Me.btnupdate.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btnupdate.Location = New System.Drawing.Point(248, 334)
+        Me.btnupdate.Location = New System.Drawing.Point(342, 335)
         Me.btnupdate.Name = "btnupdate"
         Me.btnupdate.Size = New System.Drawing.Size(78, 27)
         Me.btnupdate.TabIndex = 2
@@ -303,17 +302,6 @@ Partial Class BooksTakenOut
         Me.DataGridView1.Size = New System.Drawing.Size(532, 187)
         Me.DataGridView1.TabIndex = 7
         '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.Silver
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(521, 334)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(87, 25)
-        Me.Button1.TabIndex = 8
-        Me.Button1.Text = " Back"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
         'btnall
         '
         Me.btnall.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
@@ -329,7 +317,7 @@ Partial Class BooksTakenOut
         Me.Label12.AutoSize = True
         Me.Label12.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(338, 583)
+        Me.Label12.Location = New System.Drawing.Point(321, 609)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(253, 13)
         Me.Label12.TabIndex = 10
@@ -344,7 +332,6 @@ Partial Class BooksTakenOut
         Me.ClientSize = New System.Drawing.Size(865, 655)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.btnall)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btndelete)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.btnupdate)
@@ -399,7 +386,6 @@ Partial Class BooksTakenOut
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
     Friend WithEvents btnbar As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents btnall As System.Windows.Forms.Button
     Friend WithEvents Label12 As System.Windows.Forms.Label
 End Class

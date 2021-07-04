@@ -51,6 +51,10 @@ Labproject
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Labproject.My.Resources.Resources.login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Labproject.My.Resources.Resources.male_user_64pxiiiiii">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

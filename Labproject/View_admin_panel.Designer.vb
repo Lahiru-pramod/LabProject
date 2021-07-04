@@ -24,7 +24,6 @@ Partial Class View_admin_panel
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -47,17 +46,6 @@ Partial Class View_admin_panel
         Me.DataGridView1.Size = New System.Drawing.Size(582, 250)
         Me.DataGridView1.TabIndex = 1
         '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.Red
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(371, 337)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(93, 37)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Back"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Yellow
@@ -75,7 +63,6 @@ Partial Class View_admin_panel
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(660, 386)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "View_admin_panel"
@@ -87,6 +74,5 @@ Partial Class View_admin_panel
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
-    Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
 End Class
