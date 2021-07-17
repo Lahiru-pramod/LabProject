@@ -15,6 +15,14 @@ Labproject
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:Labproject.My.Resources.Resources.Backgroundimg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Labproject.My.Resources.Resources.Backgroundimg2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Labproject.My.Resources.Resources.book_64px">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
