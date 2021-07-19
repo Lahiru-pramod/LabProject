@@ -1,7 +1,7 @@
 ﻿Public Class Main_control_Screen
 
     Private Sub Main_control_Screen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.CenterToScreen()
+
     End Sub
 
     Private Sub btnadd_Click(sender As Object, e As EventArgs)
@@ -160,12 +160,16 @@
         End With
     End Sub
 
-    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+    Private Sub Button9_Click(sender As Object, e As EventArgs)
         Me.Hide()
         login.Show()
     End Sub
 
-    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+    Private Sub Button8_Click(sender As Object, e As EventArgs)
         Me.Close()
+    End Sub
+
+    Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
+
     End Sub
 End Class

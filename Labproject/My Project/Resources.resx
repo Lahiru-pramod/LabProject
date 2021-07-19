@@ -118,20 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="susan-q-yin-2JIvboGLeho-unsplash1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\susan-q-yin-2JIvboGLeho-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cesar-couto-TIvFLeqZ4ec-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cesar-couto-TIvFLeqZ4ec-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="find_user_male_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\find_user_male_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="undo_26px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\undo_26px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backgroundimg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backgroundimg2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user_48pikikikikix" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_48pikikikikix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,23 +142,20 @@
   <data name="literature_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\literature_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="susan-q-yin-2JIvboGLeho-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\susan-q-yin-2JIvboGLeho-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Backgroundimg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Backgroundimg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="find_and_replace_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\find_and_replace_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="istockphoto-1150477705-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\istockphoto-1150477705-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="calculator_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\calculator_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="shutdown_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shutdown_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="key_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\key_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,10 +166,10 @@
   <data name="literature_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\literature_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="user_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backgroundimg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Backgroundimg2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="schoolstudent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\schoolstudent.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

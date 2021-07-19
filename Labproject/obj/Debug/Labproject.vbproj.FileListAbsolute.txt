@@ -30,3 +30,4 @@ E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.Edit_member_det
 E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.Edit_admin_data.resources
 E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.Main_control_Screen.resources
 E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.begining.resources
+E:\GAL-IT-2019-F-0005\LabProject\Labproject\obj\Debug\Labproject.Dashboard.resources

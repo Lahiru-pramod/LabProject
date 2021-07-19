@@ -20,7 +20,7 @@ Public Class login
         Dim dt As DataTable = New DataTable()
         sda.Fill(dt)
         If (dt.Rows.Count > 0) Then
-            Main_control_Screen.Show()
+            Dashboard.Show()
             Me.Hide()
             txtuser.Text = ""
             txtpassword.Text = ""
@@ -37,7 +37,7 @@ Public Class login
     End Sub
 
     Private Sub btnexit_Click(sender As Object, e As EventArgs) Handles btnexit.Click
-        Close()
+        End
 
     End Sub
 

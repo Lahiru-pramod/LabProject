@@ -29,16 +29,12 @@ Partial Class Main_control_Screen
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Btnaddnew = New System.Windows.Forms.Button()
@@ -54,8 +50,6 @@ Partial Class Main_control_Screen
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -112,16 +106,12 @@ Partial Class Main_control_Screen
         '
         Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(89, Byte), Integer), CType(CType(132, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Panel2.Controls.Add(Me.Label5)
-        Me.Panel2.Controls.Add(Me.PictureBox6)
-        Me.Panel2.Controls.Add(Me.PictureBox7)
         Me.Panel2.Controls.Add(Me.PictureBox5)
         Me.Panel2.Controls.Add(Me.PictureBox4)
         Me.Panel2.Controls.Add(Me.PictureBox3)
         Me.Panel2.Controls.Add(Me.PictureBox2)
         Me.Panel2.Controls.Add(Me.Button6)
         Me.Panel2.Controls.Add(Me.Button7)
-        Me.Panel2.Controls.Add(Me.Button9)
-        Me.Panel2.Controls.Add(Me.Button8)
         Me.Panel2.Controls.Add(Me.Button5)
         Me.Panel2.Controls.Add(Me.Button4)
         Me.Panel2.Controls.Add(Me.Btnaddnew)
@@ -146,31 +136,11 @@ Partial Class Main_control_Screen
         Me.Label5.Text = "Calculation of FINES for delay in " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "return of books"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
-        'PictureBox6
-        '
-        Me.PictureBox6.BackgroundImage = Global.Labproject.My.Resources.Resources.shutdown_64px
-        Me.PictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox6.Location = New System.Drawing.Point(140, 616)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(24, 21)
-        Me.PictureBox6.TabIndex = 2
-        Me.PictureBox6.TabStop = False
-        '
-        'PictureBox7
-        '
-        Me.PictureBox7.BackgroundImage = Global.Labproject.My.Resources.Resources.undo_26px
-        Me.PictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox7.Location = New System.Drawing.Point(22, 616)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(24, 21)
-        Me.PictureBox7.TabIndex = 2
-        Me.PictureBox7.TabStop = False
-        '
         'PictureBox5
         '
         Me.PictureBox5.BackgroundImage = Global.Labproject.My.Resources.Resources.male_user_64pxiiiiii
         Me.PictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox5.Location = New System.Drawing.Point(21, 553)
+        Me.PictureBox5.Location = New System.Drawing.Point(21, 572)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(44, 26)
         Me.PictureBox5.TabIndex = 2
@@ -180,7 +150,7 @@ Partial Class Main_control_Screen
         '
         Me.PictureBox4.BackgroundImage = Global.Labproject.My.Resources.Resources.calculator_80px
         Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox4.Location = New System.Drawing.Point(21, 511)
+        Me.PictureBox4.Location = New System.Drawing.Point(21, 522)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(44, 26)
         Me.PictureBox4.TabIndex = 2
@@ -215,7 +185,7 @@ Partial Class Main_control_Screen
         Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(18, 507)
+        Me.Button6.Location = New System.Drawing.Point(18, 517)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(190, 35)
         Me.Button6.TabIndex = 2
@@ -231,46 +201,12 @@ Partial Class Main_control_Screen
         Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(18, 548)
+        Me.Button7.Location = New System.Drawing.Point(18, 567)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(190, 35)
         Me.Button7.TabIndex = 2
         Me.Button7.Text = "    Admin Panel"
         Me.Button7.UseVisualStyleBackColor = False
-        '
-        'Button9
-        '
-        Me.Button9.BackColor = System.Drawing.Color.FromArgb(CType(CType(89, Byte), Integer), CType(CType(132, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.Button9.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button9.FlatAppearance.BorderColor = System.Drawing.Color.Gainsboro
-        Me.Button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Location = New System.Drawing.Point(18, 609)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(93, 35)
-        Me.Button9.TabIndex = 2
-        Me.Button9.Text = "Log out"
-        Me.Button9.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Button9.UseVisualStyleBackColor = False
-        '
-        'Button8
-        '
-        Me.Button8.BackColor = System.Drawing.Color.FromArgb(CType(CType(89, Byte), Integer), CType(CType(132, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.Button8.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.Gainsboro
-        Me.Button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(132, 609)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(76, 35)
-        Me.Button8.TabIndex = 2
-        Me.Button8.Text = "Exit"
-        Me.Button8.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Button8.UseVisualStyleBackColor = False
         '
         'Button5
         '
@@ -440,6 +376,7 @@ Partial Class Main_control_Screen
         Me.Controls.Add(Me.Panel1)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ForeColor = System.Drawing.Color.Black
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Main_control_Screen"
         Me.Text = "Library Management System"
@@ -448,8 +385,6 @@ Partial Class Main_control_Screen
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -478,10 +413,6 @@ Partial Class Main_control_Screen
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
     Friend WithEvents Button7 As System.Windows.Forms.Button
-    Friend WithEvents PictureBox7 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox6 As System.Windows.Forms.PictureBox
-    Friend WithEvents Button9 As System.Windows.Forms.Button
-    Friend WithEvents Button8 As System.Windows.Forms.Button
     Friend WithEvents Panelmain As System.Windows.Forms.Panel
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label7 As System.Windows.Forms.Label
